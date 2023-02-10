@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * <h2>1. 两数之和</h2>
+ * <p>
+ * <a href="https://leetcode.cn/problems/two-sum/">LeetCode link</a>
+ */
+class TwoSum_Solution {
+    public int[] twoSum(int[] nums, int t) {
+        Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        for (int i = 0; i < n; ++i) {
+            int b = t - nums[i];
+            if (map.containsKey(b)) {
+                return new int[]{i, map.get(b)};
+            }
+            map.put(nums[i], i);
+        }
+        return new int[]{};
+    }
+}
