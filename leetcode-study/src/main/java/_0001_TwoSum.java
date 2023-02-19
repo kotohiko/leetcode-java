@@ -5,6 +5,8 @@ import java.util.Map;
  * <h2>1. 两数之和</h2>
  * <p>
  * <a href="https://leetcode.cn/problems/two-sum/">LeetCode link</a>
+ *
+ * @author Jacob Suen
  */
 class TwoSum_Solution {
     public int[] twoSum(int[] nums, int t) {
