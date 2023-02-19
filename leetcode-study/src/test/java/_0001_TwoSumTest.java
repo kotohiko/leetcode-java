@@ -51,7 +51,7 @@ public class _0001_TwoSumTest {
 
             String out = integerArrayToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

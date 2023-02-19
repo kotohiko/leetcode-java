@@ -8,6 +8,7 @@ import java.util.Map;
  * @author Jacob Suen
  */
 class RomanToInteger_Solution {
+
     Map<Character, Integer> map = new HashMap<>() {{
         put('I', 1);
         put('V', 5);
@@ -19,14 +20,14 @@ class RomanToInteger_Solution {
     }};
 
     public int romanToInt(String s) {
-        int ans = 0;
         int n = s.length();
+        int ans = 0;
         for (int i = 0; i < n; ++i) {
-            int value = map.get(s.charAt(i));
-            if (i < n - 1 && value < map.get(s.charAt(i + 1))) {
-                ans -= value;
+            int val = map.get(s.charAt(i));
+            if (i < n - 1 && val < map.get(s.charAt(i + 1))) {
+                ans -= val;
             } else {
-                ans += value;
+                ans += val;
             }
         }
         return ans;

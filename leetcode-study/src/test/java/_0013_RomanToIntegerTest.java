@@ -19,7 +19,7 @@ public class _0013_RomanToIntegerTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

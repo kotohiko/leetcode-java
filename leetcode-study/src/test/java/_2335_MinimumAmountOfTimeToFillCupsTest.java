@@ -32,7 +32,7 @@ public class _2335_MinimumAmountOfTimeToFillCupsTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }
