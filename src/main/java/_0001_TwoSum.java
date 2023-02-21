@@ -15,7 +15,7 @@ class TwoSum_Solution {
         for (int i = 0; i < n; ++i) {
             int b = t - nums[i];
             if (map.containsKey(b)) {
-                return new int[]{i, map.get(b)};
+                return new int[]{map.get(b), i};
             }
             map.put(nums[i], i);
         }
