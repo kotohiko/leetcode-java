@@ -20,8 +20,8 @@ class RomanToInteger_Solution {
     }};
 
     public int romanToInt(String s) {
-        int n = s.length();
         int ans = 0;
+        int n = s.length();
         for (int i = 0; i < n; ++i) {
             int val = map.get(s.charAt(i));
             if (i < n - 1 && val < map.get(s.charAt(i + 1))) {
