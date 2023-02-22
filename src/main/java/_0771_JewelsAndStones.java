@@ -10,16 +10,18 @@ import java.util.Set;
  */
 class JewelsAndStones_Solution {
     public int numJewelsInStones(String jewels, String stones) {
-        int jewelsLength = jewels.length();
-        int stonesLength = stones.length();
+        int jLength = jewels.length();
+        int sLength = stones.length();
         int ans = 0;
-        Set<Character> jewelsSet = new HashSet<>();
-        for (int i = 0; i < jewelsLength; ++i) {
-            jewelsSet.add(jewels.charAt(i));
+        Set<Character> jSet = new HashSet<>();
+        for (int i = 0; i < jLength; ++i) {
+            char jewel = jewels.charAt(i);
+            jSet.add(jewel);
         }
-        for (int i = 0; i < stonesLength; ++i) {
-            if (jewelsSet.contains(stones.charAt(i))) {
-                ans++;
+        for (int i = 0; i < sLength; ++i) {
+            char stone = stones.charAt(i);
+            if (jSet.contains(stone)) {
+                ++ans;
             }
         }
         return ans;
