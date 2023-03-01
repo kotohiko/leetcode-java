@@ -9,3 +9,12 @@
 /**
  * @author LeetCode Playground
  */
+
+
+ # 175. 组合两个表
+ # URL：https://leetcode.cn/problems/combine-two-tables/
+ # 注：此SQL文件是DML、DQL、DDL共存的，若需做试验请谨慎操作
+
+ # SQL架构
+
+ # 题目解答
