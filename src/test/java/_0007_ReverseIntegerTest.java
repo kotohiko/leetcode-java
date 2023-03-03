@@ -16,7 +16,7 @@ public class _0007_ReverseIntegerTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

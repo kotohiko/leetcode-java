@@ -68,7 +68,7 @@ public class _0100_SameTreeTest {
 
             String out = booleanToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

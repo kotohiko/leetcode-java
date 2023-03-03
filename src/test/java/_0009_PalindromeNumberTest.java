@@ -20,7 +20,7 @@ public class _0009_PalindromeNumberTest {
 
             String out = booleanToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }
