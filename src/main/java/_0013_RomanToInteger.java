@@ -24,7 +24,7 @@ class RomanToInteger_Solution {
         int n = s.length();
         for (int i = 0; i < n; ++i) {
             int val = map.get(s.charAt(i));
-            if (i < n - 1 && val < map.get(s.charAt(i + 1))) {
+            if (i < n - 1 && val < (map.get(s.charAt(i + 1)))) {
                 ans -= val;
             } else {
                 ans += val;
