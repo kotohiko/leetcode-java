@@ -1,0 +1,1 @@
+return Json.parse("[" + input + "]").asArray().get(0).asString();
