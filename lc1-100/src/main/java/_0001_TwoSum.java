@@ -5,7 +5,7 @@ import java.util.HashMap;
  * <a href="https://leetcode.cn/problems/two-sum/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @create 10:55 20/09/2023
+ * @since 10:55 20/09/2023
  */
 class TwoSum_Solution {
     public int[] twoSum(int[] nums, int target) {
