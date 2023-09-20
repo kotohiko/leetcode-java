@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * @author LeetCode Playground
  */
-public class _0001_TwoSumTest {
+public class _0002_AddTwoNumbersTest {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -22,34 +22,44 @@ public class _0001_TwoSumTest {
         return output;
     }
 
-    public static String integerArrayToString(int[] nums, int length) {
-        if (length == 0) {
+    public static ListNode stringToListNode(String input) {
+        // Generate array from the input
+        int[] nodeValues = stringToIntegerArray(input);
+
+        // Now convert that list into linked list
+        ListNode dummyRoot = new ListNode(0);
+        ListNode ptr = dummyRoot;
+        for(int item : nodeValues) {
+            ptr.next = new ListNode(item);
+            ptr = ptr.next;
+        }
+        return dummyRoot.next;
+    }
+
+    public static String listNodeToString(ListNode node) {
+        if (node == null) {
             return "[]";
         }
 
         StringBuilder result = new StringBuilder();
-        for(int index = 0; index < length; index++) {
-            int number = nums[index];
-            result.append(number).append(", ");
+        while (node != null) {
+            result.append(node.val).append(", ");
+            node = node.next;
         }
         return "[" + result.substring(0, result.length() - 2) + "]";
-    }
-
-    public static String integerArrayToString(int[] nums) {
-        return integerArrayToString(nums, nums.length);
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[] nums = stringToIntegerArray(line);
+            ListNode l1 = stringToListNode(line);
             line = in.readLine();
-            int target = Integer.parseInt(line);
+            ListNode l2 = stringToListNode(line);
 
-            int[] ret = new TwoSum_Solution().twoSum(nums, target);
+            ListNode ret = new AddTwoNumbers_Solution().addTwoNumbers(l1, l2);
 
-            String out = integerArrayToString(ret);
+            String out = listNodeToString(ret);
 
             System.out.println(out);
         }

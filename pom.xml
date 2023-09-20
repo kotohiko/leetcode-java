@@ -11,6 +11,7 @@
     <modules>
         <module>lc1-100</module>
         <module>common</module>
+        <module>lc101-200</module>
     </modules>
 
     <properties>
