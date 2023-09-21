@@ -1,3 +1,4 @@
+JsonArray jsonArray = Json.parse(line).asArray();
 return Json.parse("[" + input + "]").asArray().get(0).asString();
 
 
