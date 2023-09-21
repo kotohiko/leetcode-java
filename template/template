@@ -1,1 +1,18 @@
 return Json.parse("[" + input + "]").asArray().get(0).asString();
+
+
+/**
+ * <h2></h2>
+ * <a href="">LeetCode link</a>
+ * @author Jacob Suen
+ * @create ${HOUR}:${MINUTE} ${DAY}/${MONTH}/${YEAR}
+ */
+public class ${NAME} {
+}
+
+
+/**
+ * @author LeetCode Playground
+ */
+public class ${NAME} {
+}
