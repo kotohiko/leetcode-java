@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * @author LeetCode Playground
  */
-public class _0206_ReverseLinkedListTest {
+public class _0021_MergeTwoSortedListsTest {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -53,9 +53,11 @@ public class _0206_ReverseLinkedListTest {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            ListNode head = stringToListNode(line);
+            ListNode list1 = stringToListNode(line);
+            line = in.readLine();
+            ListNode list2 = stringToListNode(line);
 
-            ListNode ret = new ReverseLinkedList_Solution().reverseList(head);
+            ListNode ret = new MergeTwoSortedLists_Solution().mergeTwoLists(list1, list2);
 
             String out = listNodeToString(ret);
 

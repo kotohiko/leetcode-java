@@ -8,7 +8,7 @@ return Json.parse("[" + input + "]").asArray().get(0).asString();
  * @author Jacob Suen
  * @create ${HOUR}:${MINUTE} ${DAY}/${MONTH}/${YEAR}
  */
-public class ${NAME} {
+class ${NAME}_Solution {
 }
 
 
