@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/merge-two-sorted-lists/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @create 17:39 21/09/2023
+ * @since 17:39 21/09/2023
  */
 class MergeTwoSortedLists_Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
