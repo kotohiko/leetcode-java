@@ -22,7 +22,7 @@ public class _0058_LengthOfLastWordTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

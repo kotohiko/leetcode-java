@@ -1,7 +1,4 @@
-import java.security.NoSuchAlgorithmException;
-import java.security.SecureRandom;
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
 import java.util.UUID;
 
@@ -13,7 +10,7 @@ public class UuidTest {
      * @param n 你需要的位数
      */
     public static String uuidGenerator(int n) {
-        return UUID.randomUUID().toString().replace("-", "").substring(0,n);
+        return UUID.randomUUID().toString().replace("-", "").substring(0, n);
     }
 
     public static void main(String[] args) {
