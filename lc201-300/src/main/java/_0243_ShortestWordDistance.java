@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/shortest-word-distance/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 16:06 21/09/2023
+ * @since 16:06 09/21/2023
  */
 class ShortestWordDistance_Solution {
     public int shortestDistance(String[] wordsDict, String word1, String word2) {

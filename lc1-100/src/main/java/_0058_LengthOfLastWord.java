@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/length-of-last-word/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 18:37 23/09/2023
+ * @since 18:37 09/23/2023
  */
 class LengthOfLastWord_Solution {
     public int lengthOfLastWord(String s) {
