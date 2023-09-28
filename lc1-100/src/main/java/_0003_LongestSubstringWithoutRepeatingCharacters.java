@@ -13,10 +13,10 @@ class LongestSubstringWithoutRepeatingCharacters_Solution {
         var n = s.length();
         var ans = 0;
         for (int i = 0, j = 0; j < n; ++j) {
-            char jCh = s.charAt(j);
+            var jCh = s.charAt(j);
             map.put(jCh, map.getOrDefault(jCh, 0) + 1);
             while (map.get(jCh) > 1) {
-                char iCh = s.charAt(i);
+                var iCh = s.charAt(i);
                 map.put(iCh, map.get(iCh) - 1);
                 ++i;
             }

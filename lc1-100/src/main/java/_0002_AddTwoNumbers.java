@@ -1,14 +1,14 @@
 /**
  * <h2>2. Add Two Numbers</h2>
- * <a href="https://leetcode.cn/classic/problems/add-two-numbers/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/add-two-numbers/">LeetCode link</a>
  *
  * @author Jacob Suen
  * @since 12:13 09/20/2023
  */
 class AddTwoNumbers_Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode();
-        ListNode tmp = dummy;
+        var dummy = new ListNode();
+        var tmp = dummy;
         var t = 0;
         while (l1 != null || l2 != null) {
             var a = l1 != null ? l1.val : 0;

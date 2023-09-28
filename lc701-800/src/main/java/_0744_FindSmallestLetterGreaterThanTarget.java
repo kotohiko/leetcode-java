@@ -7,7 +7,7 @@
  */
 class FindSmallestLetterGreaterThanTarget_Solution {
     public char nextGreatestLetter(char[] letters, char target) {
-        for (char letter : letters) {
+        for (var letter : letters) {
             if (letter > target) {
                 return letter;
             }
