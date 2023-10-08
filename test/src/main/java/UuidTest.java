@@ -4,6 +4,9 @@ import java.util.UUID;
 
 public class UuidTest {
 
+    private static final int cnt = 300000;
+    private static final int len = 8;
+
     /**
      * 生成的 UUID 无 “-” 字符
      *
@@ -15,17 +18,17 @@ public class UuidTest {
 
     public static void main(String[] args) {
         Set<String> set = new HashSet<>();
-        int number = 0;
-        for (var i = 0; i < 1000000; ++i) {
-            String test = uuidGenerator(8).toUpperCase();
+        int numberOfRepeated = 0;
+        for (var i = 0; i < cnt; ++i) {
+            String test = uuidGenerator(len).toUpperCase();
             boolean boo = set.add(test);
             if (!boo) {
-                ++number;
+                ++numberOfRepeated;
                 System.out.println("有重复");
             }
         }
         System.out.println(set);
         System.out.println(set.size());
-        System.out.println(number);
+        System.out.println(numberOfRepeated);
     }
 }
