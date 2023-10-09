@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/valid-palindrome">LeetCode link</a>
  *
  * @author Jacob Suen
- * @create 16:23 09/28/2023
+ * @create 16:23 Sep 28, 2023
  */
 class ValidPalindrome_Solution {
     public boolean isPalindrome(String s) {

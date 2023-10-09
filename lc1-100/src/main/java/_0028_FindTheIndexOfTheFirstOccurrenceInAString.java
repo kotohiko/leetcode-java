@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 07:57 28/09/2023
+ * @since 07:57 Sep 28, 2023
  */
 class FindTheIndexOfTheFirstOccurrenceInAString_Solution {
     public int strStr(String haystack, String needle) {

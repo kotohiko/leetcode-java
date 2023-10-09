@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/reverse-linked-list/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 20:52 09/20/2023
+ * @since 20:52 Sep 20, 2023
  */
 class ReverseLinkedList_Solution {
     public ListNode reverseList(ListNode head) {

@@ -5,7 +5,7 @@ import java.util.Arrays;
  * <a href="https://leetcode.cn/problems/split-with-minimum-sum/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @create 15:46 10/09/2023
+ * @create 15:46 Oct 09, 2023
  */
 class SplitWithMinimumSum_Solution {
     public int splitNum(int num) {

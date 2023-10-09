@@ -5,7 +5,7 @@ import java.util.HashMap;
  * <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 19:05 09/20/2023
+ * @since 19:05 Sep 20, 2023
  */
 class LongestSubstringWithoutRepeatingCharacters_Solution {
     public int lengthOfLongestSubstring(String s) {

@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/add-two-numbers/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 12:13 09/20/2023
+ * @since 12:13 Sep 20, 2023
  */
 class AddTwoNumbers_Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
