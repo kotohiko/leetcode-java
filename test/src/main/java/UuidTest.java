@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.Set;
 import java.util.UUID;
 
 public class UuidTest {
@@ -17,11 +16,11 @@ public class UuidTest {
     }
 
     public static void main(String[] args) {
-        Set<String> set = new HashSet<>();
-        int numberOfRepeated = 0;
+        var set = new HashSet<String>();
+        var numberOfRepeated = 0;
         for (var i = 0; i < cnt; ++i) {
-            String test = uuidGenerator(len).toUpperCase();
-            boolean boo = set.add(test);
+            var test = uuidGenerator(len).toUpperCase();
+            var boo = set.add(test);
             if (!boo) {
                 ++numberOfRepeated;
                 System.out.println("有重复");
