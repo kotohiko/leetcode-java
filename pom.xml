@@ -15,6 +15,7 @@
         <module>lc201-300</module>
         <module>lc701-800</module>
         <module>test</module>
+        <module>lc2501-2600</module>
     </modules>
 
     <properties>
