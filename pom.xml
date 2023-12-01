@@ -20,6 +20,7 @@
 
         <module>lc2501-2600</module>
         <module>test</module>
+        <module>lc2601-2700</module>
     </modules>
 
     <properties>
