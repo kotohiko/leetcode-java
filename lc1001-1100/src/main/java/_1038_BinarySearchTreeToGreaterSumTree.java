@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 09:03 12月 04, 2023
+ * @since 09:03 Dec 04, 2023
  */
 class BinarySearchTreeToGreaterSumTree_Solution {
     int tot = 0;
