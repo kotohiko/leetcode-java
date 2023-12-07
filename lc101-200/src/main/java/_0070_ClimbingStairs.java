@@ -7,7 +7,7 @@
  */
 class ClimbingStairs_Solution {
     public int climbStairs(int n) {
-        int p;
+        var p = 0;
         var q = 0;
         var r = 1;
         for (var i = 0; i < n; ++i) {
