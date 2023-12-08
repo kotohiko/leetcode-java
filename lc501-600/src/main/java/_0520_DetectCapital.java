@@ -13,20 +13,18 @@ class DetectCapital_Solution {
         }
         var first = word.charAt(0);
         for (var i = 1; i < n; ++i) {
-            if (Character.isUpperCase(first) && Character.isLowerCase(word.charAt(1))) {
-                if (Character.isUpperCase(word.charAt(i))) {
-                    return false;
-                }
+            if (Character.isUpperCase(first)
+                    && Character.isLowerCase(word.charAt(1)) && (Character.isUpperCase(word.charAt(i)))) {
+                return false;
             }
-            if (Character.isUpperCase(first) && Character.isUpperCase(word.charAt(1))) {
-                if (Character.isLowerCase(word.charAt(i))) {
-                    return false;
-                }
+            if (Character.isUpperCase(first)
+                    && Character.isUpperCase(word.charAt(1)) && (Character.isLowerCase(word.charAt(i)))) {
+                return false;
+
             }
-            if (Character.isLowerCase(first)) {
-                if (Character.isUpperCase(word.charAt(i))) {
-                    return false;
-                }
+            if (Character.isLowerCase(first)
+                    && (Character.isUpperCase(word.charAt(i)))) {
+                return false;
             }
         }
         return true;
