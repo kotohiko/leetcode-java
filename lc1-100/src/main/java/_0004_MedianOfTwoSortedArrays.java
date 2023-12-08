@@ -11,7 +11,9 @@ class MedianOfTwoSortedArrays_Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         var n = nums1.length;
         var m = nums2.length;
+        // 构造新数组
         int[] arr = new int[n + m];
+        // 新数组序列
         var idx = 0;
         for (var i : nums1) {
             arr[idx++] = i;
