@@ -1,3 +1,4 @@
+import com.eclipsesource.json.Json;
 import com.eclipsesource.json.JsonArray;
 
 import java.io.BufferedReader;
@@ -25,7 +26,7 @@ public class _2661_FirstCompletelyPaintedRowOrColumnTest {
     }
 
     public static int[][] stringToInt2dArray(String input) {
-        JsonArray jsonArray = JsonArray.readFrom(input);
+        JsonArray jsonArray = Json.parse(input).asArray();
         if (jsonArray.isEmpty()) {
             return new int[0][0];
         }
