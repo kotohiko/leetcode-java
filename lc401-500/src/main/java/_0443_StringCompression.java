@@ -3,7 +3,7 @@
  * <a href="https://leetcode.cn/problems/string-compression/">LeetCode link</a>
  *
  * @author Jacob Suen
- * @since 16:15 12月 08, 2023
+ * @since 16:15 Dec 08, 2023
  */
 class StringCompression_Solution {
     public int compress(char[] cs) {
