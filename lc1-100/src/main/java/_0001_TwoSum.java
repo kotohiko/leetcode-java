@@ -18,6 +18,6 @@ class TwoSum_Solution {
             }
             map.put(nums[i], i);
         }
-        return null;
+        return new int[0];
     }
 }
