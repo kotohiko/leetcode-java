@@ -20,7 +20,6 @@ class DetectCapital_Solution {
             if (Character.isUpperCase(first)
                     && Character.isUpperCase(word.charAt(1)) && (Character.isLowerCase(word.charAt(i)))) {
                 return false;
-
             }
             if (Character.isLowerCase(first)
                     && (Character.isUpperCase(word.charAt(i)))) {
