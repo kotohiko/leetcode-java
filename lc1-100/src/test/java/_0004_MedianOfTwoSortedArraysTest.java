@@ -39,7 +39,7 @@ public class _0004_MedianOfTwoSortedArraysTest {
 
             String out = doubleToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

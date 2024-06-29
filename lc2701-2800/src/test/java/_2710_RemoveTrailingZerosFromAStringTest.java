@@ -20,7 +20,7 @@ public class _2710_RemoveTrailingZerosFromAStringTest {
 
             String out = (new RemoveTrailingZerosFromAString_Solution().removeTrailingZeros(num));
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

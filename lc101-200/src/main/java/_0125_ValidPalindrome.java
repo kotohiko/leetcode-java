@@ -1,9 +1,8 @@
 /**
- * <h1>125. Valid Palindrome</h1>
- * <a href="https://leetcode.cn/problems/valid-palindrome">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/valid-palindrome"><h1>125. Valid Palindrome</h1></a>
  *
  * @author Jacob Suen
- * @create 16:23 Sep 28, 2023
+ * @since 16:23 Sep 28, 2023
  */
 class ValidPalindrome_Solution {
     public boolean isPalindrome(String s) {

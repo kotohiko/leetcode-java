@@ -51,7 +51,7 @@ public class _2661_FirstCompletelyPaintedRowOrColumnTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

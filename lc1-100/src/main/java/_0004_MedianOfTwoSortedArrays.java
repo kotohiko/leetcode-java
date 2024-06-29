@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 /**
- * <h1>4. Median of Two Sorted Arrays</h1>
- * <a href="https://leetcode.cn/problems/median-of-two-sorted-arrays/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/median-of-two-sorted-arrays/"><h1>4. Median of Two Sorted Arrays</h1></a>
  *
  * @author Jacob Suen
  * @since 14:20 Dec 05, 2023

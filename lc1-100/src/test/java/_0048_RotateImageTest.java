@@ -67,7 +67,7 @@ public class _0048_RotateImageTest {
             new RotateImage_Solution().rotate(matrix);
             String out = int2dArrayToString(matrix);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

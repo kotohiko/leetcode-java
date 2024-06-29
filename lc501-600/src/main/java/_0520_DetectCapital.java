@@ -1,6 +1,5 @@
 /**
- * <h1>520. Detect Capital</h1>
- * <a href="https://leetcode.cn/problems/detect-capital/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/detect-capital/"><h1>520. Detect Capital</h1></a>
  *
  * @author Jacob Suen
  * @since 22:48 08/10/2023

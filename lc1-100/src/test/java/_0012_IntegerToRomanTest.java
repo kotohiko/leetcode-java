@@ -14,7 +14,7 @@ public class _0012_IntegerToRomanTest {
 
             String out = (new IntegerToRoman_Solution().intToRoman(num));
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

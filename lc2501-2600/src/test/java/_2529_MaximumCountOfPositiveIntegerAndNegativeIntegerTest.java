@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * @author LeetCode Playground
  */
-public class _0136_SingleNumberTest {
+public class _2529_MaximumCountOfPositiveIntegerAndNegativeIntegerTest {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -28,7 +28,7 @@ public class _0136_SingleNumberTest {
         while ((line = in.readLine()) != null) {
             int[] nums = stringToIntegerArray(line);
 
-            int ret = new SingleNumber_Solution().singleNumber(nums);
+            int ret = new MaximumCountOfPositiveIntegerAndNegativeInteger_Solution().maximumCount(nums);
 
             String out = String.valueOf(ret);
 

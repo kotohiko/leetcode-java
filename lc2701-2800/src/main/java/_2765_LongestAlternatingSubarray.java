@@ -1,9 +1,8 @@
 /**
- * <h1>2765. Longest Alternating Subarray</h1>
- * <a href="https://leetcode.cn/problems/longest-alternating-subarray/description/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/longest-alternating-subarray/description/"><h1>2765. Longest Alternating Subarray</h1></a>
  *
  * @author Jacob Suen
- * @create 16:29 Jan 23, 2023
+ * @since 16:29 Jan 23, 2023
  */
 class LongestAlternatingSubarray_Solution {
     public int alternatingSubarray(int[] nums) {

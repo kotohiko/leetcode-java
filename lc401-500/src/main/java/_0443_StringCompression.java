@@ -1,6 +1,5 @@
 /**
- * <h1>443. String Compression</h1>
- * <a href="https://leetcode.cn/problems/string-compression/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/string-compression/"><h1>443. String Compression</h1></a>
  *
  * @author Jacob Suen
  * @since 16:15 Dec 08, 2023

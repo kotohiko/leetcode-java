@@ -16,7 +16,7 @@ public class _2578_SplitWithMinimumSumTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

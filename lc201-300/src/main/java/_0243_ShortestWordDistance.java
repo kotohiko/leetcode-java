@@ -1,6 +1,5 @@
 /**
- * <h1>243. Shortest Word Distance</h1>
- * <a href="https://leetcode.cn/problems/shortest-word-distance/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/shortest-word-distance/"><h1>243. Shortest Word Distance</h1></a>
  *
  * @author Jacob Suen
  * @since 16:06 Sep 21, 2023

@@ -20,7 +20,7 @@ public class _0005_LongestPalindromicSubstringTest {
 
             String out = (new LongestPalindromicSubstring_Solution().longestPalindrome(s));
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

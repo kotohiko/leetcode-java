@@ -1,11 +1,10 @@
 import java.util.Arrays;
 
 /**
- * <h1>2578. Split With Minimum Sum</h1>
- * <a href="https://leetcode.cn/problems/split-with-minimum-sum/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/split-with-minimum-sum/"><h1>2578. Split With Minimum Sum</h1></a>
  *
  * @author Jacob Suen
- * @create 15:46 Oct 09, 2023
+ * @since 15:46 Oct 09, 2023
  */
 class SplitWithMinimumSum_Solution {
     public int splitNum(int num) {

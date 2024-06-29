@@ -1,6 +1,5 @@
 /**
- * <h1>5. Longest Palindromic Substring</h1>
- * <a href="https://leetcode.cn/problems/longest-palindromic-substring/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/longest-palindromic-substring/"><h1>5. Longest Palindromic Substring</h1></a>
  *
  * @author Jacob Suen
  * @since 15:58 Dec 08, 2023

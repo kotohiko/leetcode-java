@@ -23,7 +23,7 @@ public class _0520_DetectCapitalTest {
 
             String out = booleanToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

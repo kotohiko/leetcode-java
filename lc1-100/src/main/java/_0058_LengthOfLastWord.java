@@ -1,6 +1,5 @@
 /**
- * <h1>58. Length of Last Word</h1>
- * <a href="https://leetcode.cn/problems/length-of-last-word/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/length-of-last-word/"><h1>58. Length of Last Word</h1></a>
  *
  * @author Jacob Suen
  * @since 18:37 Sep 23, 2023

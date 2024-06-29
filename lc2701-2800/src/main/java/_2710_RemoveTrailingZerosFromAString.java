@@ -1,6 +1,6 @@
 /**
- * <h1>2710. Remove Trailing Zeros From a String</h1>
- * <a href="https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/description">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/description">
+ * <h1>2710. Remove Trailing Zeros From a String</h1></a>
  *
  * @author Jacob Suen
  * @since 08:16 Jun 29, 2024

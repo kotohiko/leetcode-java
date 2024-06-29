@@ -1,6 +1,5 @@
 /**
- * <h1>2. Add Two Numbers</h1>
- * <a href="https://leetcode.cn/problems/add-two-numbers/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/add-two-numbers/"><h1>2. Add Two Numbers</h1></a>
  *
  * @author Jacob Suen
  * @since 12:13 Sep 20, 2023

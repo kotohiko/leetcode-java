@@ -1,9 +1,8 @@
 /**
- * <h1>70. Climbing Stairs</h1>
- * <a href="https://leetcode.cn/problems/climbing-stairs/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/climbing-stairs/"><h1>70. Climbing Stairs</h1></a>
  *
  * @author Jacob Suen
- * @create 17:15 Sep 28, 2023
+ * @since 17:15 Sep 28, 2023
  */
 class ClimbingStairs_Solution {
     public int climbStairs(int n) {
