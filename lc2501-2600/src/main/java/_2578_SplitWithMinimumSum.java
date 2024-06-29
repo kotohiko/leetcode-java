@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * <h2>2578. Split With Minimum Sum</h2>
+ * <h1>2578. Split With Minimum Sum</h1>
  * <a href="https://leetcode.cn/problems/split-with-minimum-sum/">LeetCode link</a>
  *
  * @author Jacob Suen

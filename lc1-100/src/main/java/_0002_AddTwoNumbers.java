@@ -1,5 +1,5 @@
 /**
- * <h2>2. Add Two Numbers</h2>
+ * <h1>2. Add Two Numbers</h1>
  * <a href="https://leetcode.cn/problems/add-two-numbers/">LeetCode link</a>
  *
  * @author Jacob Suen

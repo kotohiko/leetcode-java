@@ -1,5 +1,5 @@
 /**
- * <h2>12. Integer to Roman</h2>
+ * <h1>12. Integer to Roman</h1>
  * <a href="https://leetcode.cn/problems/integer-to-roman/">LeetCode link</a>
  *
  * @author Jacob Suen

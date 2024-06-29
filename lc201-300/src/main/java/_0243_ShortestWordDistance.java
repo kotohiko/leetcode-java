@@ -1,5 +1,5 @@
 /**
- * <h2>243. Shortest Word Distance</h2>
+ * <h1>243. Shortest Word Distance</h1>
  * <a href="https://leetcode.cn/problems/shortest-word-distance/">LeetCode link</a>
  *
  * @author Jacob Suen

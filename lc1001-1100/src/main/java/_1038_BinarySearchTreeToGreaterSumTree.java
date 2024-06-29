@@ -1,5 +1,5 @@
 /**
- * <h2>1038. Binary Search Tree to Greater Sum Tree</h2>
+ * <h1>1038. Binary Search Tree to Greater Sum Tree</h1>
  * <a href="https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/">LeetCode link</a>
  *
  * @author Jacob Suen

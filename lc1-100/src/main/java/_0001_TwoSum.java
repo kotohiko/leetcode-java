@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 /**
- * <h2>1. Two Sum</h2>
+ * <h1>1. Two Sum</h1>
  * <a href="https://leetcode.cn/problems/two-sum/">LeetCode link</a>
  *
  * @author Jacob Suen

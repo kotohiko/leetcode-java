@@ -1,5 +1,5 @@
 /**
- * <h2>2765. Longest Alternating Subarray</h2>
+ * <h1>2765. Longest Alternating Subarray</h1>
  * <a href="https://leetcode.cn/problems/longest-alternating-subarray/description/">LeetCode link</a>
  *
  * @author Jacob Suen

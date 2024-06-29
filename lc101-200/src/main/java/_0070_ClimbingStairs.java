@@ -1,5 +1,5 @@
 /**
- * <h2>70. Climbing Stairs</h2>
+ * <h1>70. Climbing Stairs</h1>
  * <a href="https://leetcode.cn/problems/climbing-stairs/">LeetCode link</a>
  *
  * @author Jacob Suen

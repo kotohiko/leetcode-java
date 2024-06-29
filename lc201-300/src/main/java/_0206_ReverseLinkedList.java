@@ -1,5 +1,5 @@
 /**
- * <h2>206. Reverse Linked List</h2>
+ * <h1>206. Reverse Linked List</h1>
  * <a href="https://leetcode.cn/problems/reverse-linked-list/">LeetCode link</a>
  *
  * @author Jacob Suen

@@ -1,5 +1,5 @@
 /**
- * <h2>21. Merge Two Sorted Lists</h2>
+ * <h1>21. Merge Two Sorted Lists</h1>
  * <a href="https://leetcode.cn/problems/merge-two-sorted-lists/">LeetCode link</a>
  *
  * @author Jacob Suen

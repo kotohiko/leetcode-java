@@ -1,5 +1,5 @@
 /**
- * <h2>48. Rotate Image</h2>
+ * <h1>48. Rotate Image</h1>
  * <a href="https://leetcode.cn/problems/rotate-image/">LeetCode link</a>
  *
  * @author Jacob Suen

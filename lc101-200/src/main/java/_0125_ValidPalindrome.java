@@ -1,5 +1,5 @@
 /**
- * <h2>125. Valid Palindrome</h2>
+ * <h1>125. Valid Palindrome</h1>
  * <a href="https://leetcode.cn/problems/valid-palindrome">LeetCode link</a>
  *
  * @author Jacob Suen

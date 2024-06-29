@@ -1,5 +1,5 @@
 /**
- * <h2>136. Single Number</h2>
+ * <h1>136. Single Number</h1>
  * <a href="https://leetcode.cn/problems/single-number">LeetCode link</a>
  *
  * @author Jacob Suen

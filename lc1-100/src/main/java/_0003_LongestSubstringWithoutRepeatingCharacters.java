@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 /**
- * <h2>3. Longest Substring Without Repeating Characters</h2>
+ * <h1>3. Longest Substring Without Repeating Characters</h1>
  * <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">LeetCode link</a>
  *
  * @author Jacob Suen

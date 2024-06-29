@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 /**
- * <h2>2661. First Completely Painted Row or Column</h2>
+ * <h1>2661. First Completely Painted Row or Column</h1>
  * <a href="https://leetcode.cn/problems/first-completely-painted-row-or-column/">LeetCode link</a>
  *
  * @author Jacob Suen

@@ -1,5 +1,5 @@
 /**
- * <h2>744. Find Smallest Letter Greater Than Target</h2>
+ * <h1>744. Find Smallest Letter Greater Than Target</h1>
  * <a href="https://leetcode.cn/problems/find-smallest-letter-greater-than-target/">LeetCode link</a>
  *
  * @author Jacob Suen

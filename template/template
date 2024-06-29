@@ -3,7 +3,7 @@ return Json.parse("[" + input + "]").asArray().get(0).asString();
 
 
 /**
- * <h2></h2>
+ * <h1></h1>
  * <a href="">LeetCode link</a>
  *
  * @author Jacob Suen
