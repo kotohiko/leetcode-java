@@ -1,10 +1,10 @@
 JsonArray jsonArray = Json.parse(line).asArray();
+
 return Json.parse("[" + input + "]").asArray().get(0).asString();
 
 
 /**
- * <h1></h1>
- * <a href="">LeetCode link</a>
+ * <a href=""><h1></h1></a>
  *
  * @author Jacob Suen
  * @since ${HOUR}:${MINUTE} ${MONTH_NAME_SHORT} ${DAY}, ${YEAR}

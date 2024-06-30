@@ -4,6 +4,7 @@
  * @author LeetCode
  */
 public class ListNode {
+
     int val;
     ListNode next;
 

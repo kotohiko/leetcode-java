@@ -1,6 +1,6 @@
 /**
- * <h1>744. Find Smallest Letter Greater Than Target</h1>
- * <a href="https://leetcode.cn/problems/find-smallest-letter-greater-than-target/">LeetCode link</a>
+ * <a href="https://leetcode.cn/problems/find-smallest-letter-greater-than-target/">
+ * <h1>744. Find Smallest Letter Greater Than Target</h1></a>
  *
  * @author Jacob Suen
  * @since 10:30 Sep 22, 2023

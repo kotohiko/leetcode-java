@@ -27,6 +27,7 @@ class MedianOfTwoSortedArrays_Solution {
     }
 }
 
+@SuppressWarnings("unused")
 class MedianOfTwoSortedArrays_Solution2 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         var tot = nums1.length + nums2.length;
