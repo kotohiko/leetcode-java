@@ -15,10 +15,11 @@ class ThirdMaximumNumber_Solution {
         }
         List<Integer> list = new ArrayList<>(set);
         Collections.sort(list);
-        return list.size() < 3 ? list.get(list.size() - 1) : list.get(list.size() - 3);
+        return list.size() < 3 ? list.getLast() : list.get(list.size() - 3);
     }
 }
 
+@SuppressWarnings("unused")
 class ThirdMaximumNumber_Solution2 {
     public int thirdMax(int[] nums) {
         int[] arr = IntStream.of(nums).distinct().sorted().toArray();

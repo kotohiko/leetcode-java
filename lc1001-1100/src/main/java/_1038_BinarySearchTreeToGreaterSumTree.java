@@ -6,6 +6,7 @@
  * @since 09:03 Dec 04, 2023
  */
 class BinarySearchTreeToGreaterSumTree_Solution {
+
     int tot = 0;
 
     public TreeNode bstToGst(TreeNode root) {
