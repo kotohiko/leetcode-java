@@ -23,6 +23,7 @@
         <module>lc2701-2800</module>
         <module>test</module>
         <module>lc3101-3200</module>
+        <module>lc2001-2100</module>
     </modules>
 
     <properties>
