@@ -85,7 +85,7 @@ public class _1038_BinarySearchTreeToGreaterSumTreeTest {
 
             String out = treeNodeToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

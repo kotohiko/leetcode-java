@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * @author LeetCode Playground
  */
-public class _0414_ThirdMaximumNumberTest {
+public class _3115_MaximumPrimeDifferenceTest {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -28,7 +28,7 @@ public class _0414_ThirdMaximumNumberTest {
         while ((line = in.readLine()) != null) {
             int[] nums = stringToIntegerArray(line);
 
-            int ret = new ThirdMaximumNumber_Solution().thirdMax(nums);
+            int ret = new MaximumPrimeDifference_Solution().maximumPrimeDifference(nums);
 
             String out = String.valueOf(ret);
 
