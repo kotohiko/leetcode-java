@@ -1,5 +1,5 @@
 /**
- * <a href="https://leetcode.cn/problems/harshad-number"><h1>3099. 哈沙德数</h1></a>
+ * <a href="https://leetcode.cn/problems/harshad-number"><h1>3099. Harshad Number</h1></a>
  *
  * @author Jacob Suen
  * @since 07:45 Jul 03, 2024
