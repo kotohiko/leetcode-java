@@ -7,11 +7,11 @@
 class HarshadNumber_Solution {
     public int sumOfTheDigitsOfHarshadNumber(int x) {
         var sum = 0;
-        var y = x;
+        var copy = x;
         while (x > 0) {
             sum += x % 10;
             x /= 10;
         }
-        return y % sum == 0 ? sum : -1;
+        return copy % sum == 0 ? sum : -1;
     }
 }
