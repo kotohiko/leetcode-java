@@ -3,7 +3,7 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.cn/problems/maximum-path-quality-of-a-graph/description/">
- * <h1>2065. 最大化一张图中的路径价值</h1></a>
+ * <h1>2065. Maximum Path Quality of a Graph</h1></a>
  *
  * @author Jacob Suen
  * @since 23:31 Jul 01, 2024

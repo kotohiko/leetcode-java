@@ -23,6 +23,7 @@
         <module>lc2501-2600</module>
         <module>lc2601-2700</module>
         <module>lc2701-2800</module>
+        <module>lc2901-3000</module>
         <module>lc3001-3100</module>
         <module>lc3101-3200</module>
         <module>test</module>
