@@ -51,7 +51,7 @@ public class _2956_FindCommonElementsBetweenTwoArraysTest {
 
             String out = integerArrayToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

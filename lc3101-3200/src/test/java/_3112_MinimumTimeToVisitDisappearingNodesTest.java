@@ -70,7 +70,7 @@ public class _3112_MinimumTimeToVisitDisappearingNodesTest {
 
             String out = integerArrayToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }
