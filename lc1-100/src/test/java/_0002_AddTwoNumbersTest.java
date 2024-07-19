@@ -13,10 +13,10 @@ public class _0002_AddTwoNumbersTest {
             return new int[0];
         }
 
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for(int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
+        var parts = input.split(",");
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
+            var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
         return output;
@@ -24,12 +24,12 @@ public class _0002_AddTwoNumbersTest {
 
     public static ListNode stringToListNode(String input) {
         // Generate array from the input
-        int[] nodeValues = stringToIntegerArray(input);
+        var nodeValues = stringToIntegerArray(input);
 
         // Now convert that list into linked list
-        ListNode dummyRoot = new ListNode(0);
-        ListNode ptr = dummyRoot;
-        for(int item : nodeValues) {
+        var dummyRoot = new ListNode(0);
+        var ptr = dummyRoot;
+        for (var item : nodeValues) {
             ptr.next = new ListNode(item);
             ptr = ptr.next;
         }
@@ -41,7 +41,7 @@ public class _0002_AddTwoNumbersTest {
             return "[]";
         }
 
-        StringBuilder result = new StringBuilder();
+        var result = new StringBuilder();
         while (node != null) {
             result.append(node.val).append(", ");
             node = node.next;
@@ -50,16 +50,16 @@ public class _0002_AddTwoNumbersTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            ListNode l1 = stringToListNode(line);
+            var l1 = stringToListNode(line);
             line = in.readLine();
-            ListNode l2 = stringToListNode(line);
+            var l2 = stringToListNode(line);
 
-            ListNode ret = new AddTwoNumbers_Solution().addTwoNumbers(l1, l2);
+            var ret = new AddTwoNumbers_Solution().addTwoNumbers(l1, l2);
 
-            String out = listNodeToString(ret);
+            var out = listNodeToString(ret);
 
             System.out.println(out);
         }

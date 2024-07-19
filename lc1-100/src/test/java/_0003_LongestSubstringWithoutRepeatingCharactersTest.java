@@ -13,14 +13,14 @@ public class _0003_LongestSubstringWithoutRepeatingCharactersTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String s = stringToString(line);
+            var s = stringToString(line);
 
             int ret = new LongestSubstringWithoutRepeatingCharacters_Solution().lengthOfLongestSubstring(s);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

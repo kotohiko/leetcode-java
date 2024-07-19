@@ -10,7 +10,7 @@ return Json.parse("[" + input + "]").asArray().get(0).asString();
  * @author Jacob Suen
  * @since ${HOUR}:${MINUTE} ${MONTH_NAME_SHORT} ${DAY}, ${YEAR}
  */
-class ${NAME} {
+class ${NAME}_Solution {
 }
 
 

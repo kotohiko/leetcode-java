@@ -7,12 +7,12 @@ import java.io.InputStreamReader;
  */
 public class _0012_IntegerToRomanTest {
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int num = Integer.parseInt(line);
+            var num = Integer.parseInt(line);
 
-            String out = (new IntegerToRoman_Solution().intToRoman(num));
+            var out = (new IntegerToRoman_Solution().intToRoman(num));
 
             System.out.println(out);
         }

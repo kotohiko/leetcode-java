@@ -13,12 +13,12 @@ public class _0005_LongestPalindromicSubstringTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String s = stringToString(line);
+            var s = stringToString(line);
 
-            String out = (new LongestPalindromicSubstring_Solution().longestPalindrome(s));
+            var out = (new LongestPalindromicSubstring_Solution().longestPalindrome(s));
 
             System.out.println(out);
         }

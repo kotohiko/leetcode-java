@@ -18,8 +18,8 @@ public class _0048_RotateImageTest {
         }
 
         String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for (int index = 0; index < parts.length; index++) {
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
             String part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
@@ -32,7 +32,7 @@ public class _0048_RotateImageTest {
             return new int[0][0];
         }
 
-        int[][] arr = new int[jsonArray.size()][];
+        var arr = new int[jsonArray.size()][];
         for (int i = 0; i < arr.length; i++) {
             JsonArray cols = jsonArray.get(i).asArray();
             arr[i] = stringToIntegerArray(cols.toString());
@@ -62,7 +62,7 @@ public class _0048_RotateImageTest {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[][] matrix = stringToInt2dArray(line);
+            var matrix = stringToInt2dArray(line);
 
             new RotateImage_Solution().rotate(matrix);
             String out = int2dArrayToString(matrix);

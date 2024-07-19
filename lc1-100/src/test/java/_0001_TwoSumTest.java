@@ -13,10 +13,10 @@ public class _0001_TwoSumTest {
             return new int[0];
         }
 
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for(int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
+        var parts = input.split(",");
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
+            var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
         return output;
@@ -28,8 +28,8 @@ public class _0001_TwoSumTest {
         }
 
         StringBuilder result = new StringBuilder();
-        for(int index = 0; index < length; index++) {
-            int number = nums[index];
+        for (var index = 0; index < length; index++) {
+            var number = nums[index];
             result.append(number).append(", ");
         }
         return "[" + result.substring(0, result.length() - 2) + "]";
@@ -40,16 +40,16 @@ public class _0001_TwoSumTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[] nums = stringToIntegerArray(line);
+            var nums = stringToIntegerArray(line);
             line = in.readLine();
-            int target = Integer.parseInt(line);
+            var target = Integer.parseInt(line);
 
-            int[] ret = new TwoSum_Solution().twoSum(nums, target);
+            var ret = new TwoSum_Solution().twoSum(nums, target);
 
-            String out = integerArrayToString(ret);
+            var out = integerArrayToString(ret);
 
             System.out.println(out);
         }

@@ -9,7 +9,7 @@ class RotateImage_Solution {
         var n = matrix.length;
         for (var i = 0; i < n / 2; ++i) {
             for (var j = 0; j < (n + 1) / 2; ++j) {
-                int temp = matrix[i][j];
+                var temp = matrix[i][j];
                 matrix[i][j] = matrix[n - j - 1][i];
                 matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];
                 matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];

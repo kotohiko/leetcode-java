@@ -10,9 +10,9 @@ public class _3099_HarshadNumberTest {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int x = Integer.parseInt(line);
+            var x = Integer.parseInt(line);
 
-            int ret = new HarshadNumber_Solution().sumOfTheDigitsOfHarshadNumber(x);
+            var ret = new HarshadNumber_Solution().sumOfTheDigitsOfHarshadNumber(x);
 
             String out = String.valueOf(ret);
 

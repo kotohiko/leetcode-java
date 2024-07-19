@@ -13,16 +13,16 @@ public class _0028_FindTheIndexOfTheFirstOccurrenceInAStringTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String haystack = stringToString(line);
+            var haystack = stringToString(line);
             line = in.readLine();
-            String needle = stringToString(line);
+            var needle = stringToString(line);
 
-            int ret = new FindTheIndexOfTheFirstOccurrenceInAString_Solution().strStr(haystack, needle);
+            var ret = new FindTheIndexOfTheFirstOccurrenceInAString_Solution().strStr(haystack, needle);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

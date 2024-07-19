@@ -13,14 +13,14 @@ public class _0058_LengthOfLastWordTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String s = stringToString(line);
+            var s = stringToString(line);
 
-            int ret = new LengthOfLastWord_Solution().lengthOfLastWord(s);
+            var ret = new LengthOfLastWord_Solution().lengthOfLastWord(s);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }
