@@ -17,14 +17,14 @@ public class _0125_ValidPalindromeTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String s = stringToString(line);
+            var s = stringToString(line);
 
-            boolean ret = new ValidPalindrome_Solution().isPalindrome(s);
+            var ret = new ValidPalindrome_Solution().isPalindrome(s);
 
-            String out = booleanToString(ret);
+            var out = booleanToString(ret);
 
             System.out.println(out);
         }

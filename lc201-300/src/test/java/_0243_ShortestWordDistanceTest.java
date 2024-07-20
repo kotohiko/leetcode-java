@@ -1,5 +1,4 @@
 import com.eclipsesource.json.Json;
-import com.eclipsesource.json.JsonArray;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +9,8 @@ import java.io.InputStreamReader;
  */
 public class _0243_ShortestWordDistanceTest {
     public static String[] stringToStringArray(String line) {
-        JsonArray jsonArray = Json.parse(line).asArray();
-        String[] arr = new String[jsonArray.size()];
+        var jsonArray = Json.parse(line).asArray();
+        var arr = new String[jsonArray.size()];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = jsonArray.get(i).asString();
         }
@@ -23,18 +22,18 @@ public class _0243_ShortestWordDistanceTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String[] wordsDict = stringToStringArray(line);
+            var wordsDict = stringToStringArray(line);
             line = in.readLine();
-            String word1 = stringToString(line);
+            var word1 = stringToString(line);
             line = in.readLine();
-            String word2 = stringToString(line);
+            var word2 = stringToString(line);
 
-            int ret = new ShortestWordDistance_Solution().shortestDistance(wordsDict, word1, word2);
+            var ret = new ShortestWordDistance_Solution().shortestDistance(wordsDict, word1, word2);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

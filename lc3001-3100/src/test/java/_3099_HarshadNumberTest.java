@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
  */
 public class _3099_HarshadNumberTest {
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
             var x = Integer.parseInt(line);
 
             var ret = new HarshadNumber_Solution().sumOfTheDigitsOfHarshadNumber(x);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

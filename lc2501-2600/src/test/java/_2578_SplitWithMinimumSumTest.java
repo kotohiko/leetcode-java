@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
  */
 public class _2578_SplitWithMinimumSumTest {
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int num = Integer.parseInt(line);
+            var num = Integer.parseInt(line);
 
-            int ret = new SplitWithMinimumSum_Solution().splitNum(num);
+            var ret = new SplitWithMinimumSum_Solution().splitNum(num);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

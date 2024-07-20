@@ -13,24 +13,24 @@ public class _2765_LongestAlternatingSubarrayTest {
             return new int[0];
         }
 
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for (int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
+        var parts = input.split(",");
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
+            var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
         return output;
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[] nums = stringToIntegerArray(line);
+            var nums = stringToIntegerArray(line);
 
-            int ret = new LongestAlternatingSubarray_Solution().alternatingSubarray(nums);
+            var ret = new LongestAlternatingSubarray_Solution().alternatingSubarray(nums);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

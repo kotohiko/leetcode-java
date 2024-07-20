@@ -13,12 +13,12 @@ public class _2710_RemoveTrailingZerosFromAStringTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String num = stringToString(line);
+            var num = stringToString(line);
 
-            String out = (new RemoveTrailingZerosFromAString_Solution().removeTrailingZeros(num));
+            var out = (new RemoveTrailingZerosFromAString_Solution().removeTrailingZeros(num));
 
             System.out.println(out);
         }

@@ -13,12 +13,12 @@ public class _3114_LatestTimeYouCanObtainAfterReplacingCharactersTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String s = stringToString(line);
+            var s = stringToString(line);
 
-            String out = (new LatestTimeYouCanObtainAfterReplacingCharacters_Solution().findLatestTime(s));
+            var out = new LatestTimeYouCanObtainAfterReplacingCharacters_Solution().findLatestTime(s);
 
             System.out.println(out);
         }

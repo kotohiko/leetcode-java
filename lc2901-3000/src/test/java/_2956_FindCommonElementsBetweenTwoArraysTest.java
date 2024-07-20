@@ -13,10 +13,10 @@ public class _2956_FindCommonElementsBetweenTwoArraysTest {
             return new int[0];
         }
 
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for (int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
+        var parts = input.split(",");
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
+            var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
         return output;
@@ -27,9 +27,9 @@ public class _2956_FindCommonElementsBetweenTwoArraysTest {
             return "[]";
         }
 
-        StringBuilder result = new StringBuilder();
-        for (int index = 0; index < length; index++) {
-            int number = nums[index];
+        var result = new StringBuilder();
+        for (var index = 0; index < length; index++) {
+            var number = nums[index];
             result.append(number).append(", ");
         }
         return "[" + result.substring(0, result.length() - 2) + "]";
@@ -40,16 +40,16 @@ public class _2956_FindCommonElementsBetweenTwoArraysTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[] nums1 = stringToIntegerArray(line);
+            var nums1 = stringToIntegerArray(line);
             line = in.readLine();
-            int[] nums2 = stringToIntegerArray(line);
+            var nums2 = stringToIntegerArray(line);
 
-            int[] ret = new FindCommonElementsBetweenTwoArrays_Solution().findIntersectionValues(nums1, nums2);
+            var ret = new FindCommonElementsBetweenTwoArrays_Solution().findIntersectionValues(nums1, nums2);
 
-            String out = integerArrayToString(ret);
+            var out = integerArrayToString(ret);
 
             System.out.println(out);
         }

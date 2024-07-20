@@ -7,7 +7,7 @@
  */
 class LatestTimeYouCanObtainAfterReplacingCharacters_Solution {
     public String findLatestTime(String s) {
-        char[] t = s.toCharArray();
+        var t = s.toCharArray();
         if (t[0] == '?') {
             t[0] = t[1] == '?' || t[1] <= '1' ? '1' : '0';
         }

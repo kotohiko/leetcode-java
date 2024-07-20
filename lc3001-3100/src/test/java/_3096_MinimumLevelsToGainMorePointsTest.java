@@ -13,24 +13,24 @@ public class _3096_MinimumLevelsToGainMorePointsTest {
             return new int[0];
         }
 
-        String[] parts = input.split(",");
-        int[] output = new int[parts.length];
-        for (int index = 0; index < parts.length; index++) {
-            String part = parts[index].trim();
+        var parts = input.split(",");
+        var output = new int[parts.length];
+        for (var index = 0; index < parts.length; index++) {
+            var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
         return output;
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            int[] possible = stringToIntegerArray(line);
+            var possible = stringToIntegerArray(line);
 
-            int ret = new MinimumLevelsToGainMorePoints_Solution().minimumLevels(possible);
+            var ret = new MinimumLevelsToGainMorePoints_Solution().minimumLevels(possible);
 
-            String out = String.valueOf(ret);
+            var out = String.valueOf(ret);
 
             System.out.println(out);
         }

@@ -14,14 +14,14 @@ public class _0520_DetectCapitalTest {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            String word = stringToString(line);
+            var word = stringToString(line);
 
-            boolean ret = new DetectCapital_Solution().detectCapitalUse(word);
+            var ret = new DetectCapital_Solution().detectCapitalUse(word);
 
-            String out = booleanToString(ret);
+            var out = booleanToString(ret);
 
             System.out.println(out);
         }

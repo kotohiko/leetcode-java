@@ -8,7 +8,7 @@ class CountAlternatingSubarrays_Solution {
     public long countAlternatingSubarrays(int[] nums) {
         long res = 0;
         long cur = 0;
-        int pre = -1;
+        var pre = -1;
         for (var a : nums) {
             cur = (pre != a) ? cur + 1 : 1;
             pre = a;
