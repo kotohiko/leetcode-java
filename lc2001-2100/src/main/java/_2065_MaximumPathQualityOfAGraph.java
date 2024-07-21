@@ -18,12 +18,12 @@ class MaximumPathQualityOfAGraph_Solution {
     public int maximalPathQuality(int[] values, int[][] edges, int maxTime) {
         this.values = values;
         this.maxTime = maxTime;
-        int n = values.length;
+        var n = values.length;
         g = new List[n];
-        for (int i = 0; i < n; i++) {
+        for (var i = 0; i < n; i++) {
             g[i] = new ArrayList<>();
         }
-        for (int[] edge : edges) {
+        for (var edge : edges) {
             g[edge[0]].add(new int[]{edge[1], edge[2]});
             g[edge[1]].add(new int[]{edge[0], edge[2]});
         }
@@ -40,7 +40,8 @@ class MaximumPathQualityOfAGraph_Solution {
             ans = Math.max(ans, value);
         }
         for (int[] arr : g[u]) {
-            int v = arr[0], dist = arr[1];
+            var v = arr[0];
+            var dist = arr[1];
             if (time + dist <= maxTime) {
                 if (!visited[v]) {
                     visited[v] = true;

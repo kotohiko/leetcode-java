@@ -32,7 +32,7 @@ public class _1186_MaximumSubarraySumWithOneDeletionTest {
 
             var out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }
