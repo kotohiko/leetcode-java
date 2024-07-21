@@ -15,7 +15,7 @@ public class _0206_ReverseLinkedListTest {
 
         var parts = input.split(",");
         var output = new int[parts.length];
-        for(var index = 0; index < parts.length; index++) {
+        for (var index = 0; index < parts.length; index++) {
             var part = parts[index].trim();
             output[index] = Integer.parseInt(part);
         }
@@ -29,7 +29,7 @@ public class _0206_ReverseLinkedListTest {
         // Now convert that list into linked list
         var dummyRoot = new ListNode(0);
         var ptr = dummyRoot;
-        for(var item : nodeValues) {
+        for (var item : nodeValues) {
             ptr.next = new ListNode(item);
             ptr = ptr.next;
         }
