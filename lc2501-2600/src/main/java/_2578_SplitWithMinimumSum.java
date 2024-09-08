@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * <a href="https://leetcode.cn/problems/split-with-minimum-sum/"><h1>2578. Split With Minimum Sum</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 15:46 Oct 09, 2023
  */
 class SplitWithMinimumSum_Solution {

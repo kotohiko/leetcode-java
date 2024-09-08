@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/">
  * <h1>1038. Binary Search Tree to Greater Sum Tree</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 09:03 Dec 04, 2023
  */
 class BinarySearchTreeToGreaterSumTree_Solution {

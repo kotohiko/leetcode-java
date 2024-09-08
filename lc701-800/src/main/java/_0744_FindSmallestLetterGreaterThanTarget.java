@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/find-smallest-letter-greater-than-target/">
  * <h1>744. Find Smallest Letter Greater Than Target</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 10:30 Sep 22, 2023
  */
 class FindSmallestLetterGreaterThanTarget_Solution {

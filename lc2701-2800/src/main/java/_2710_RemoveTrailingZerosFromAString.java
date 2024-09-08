@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/remove-trailing-zeros-from-a-string/description">
  * <h1>2710. Remove Trailing Zeros From a String</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 08:16 Jun 29, 2024
  */
 class RemoveTrailingZerosFromAString_Solution {

@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/shortest-word-distance/"><h1>243. Shortest Word Distance</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:06 Sep 21, 2023
  */
 class ShortestWordDistance_Solution {

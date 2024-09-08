@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 /**
  * <a href="https://leetcode.cn/problems/third-maximum-number"><h1>414. Third Maximum Number</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 08:43 Jun 30, 2024
  */
 class ThirdMaximumNumber_Solution {

@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/rectangle-area/description/"><h1>223. Rectangle Area</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 09:53 Jul 23, 2024
  */
 class RectangleArea_Solution {

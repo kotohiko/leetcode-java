@@ -4,7 +4,7 @@ import java.util.HashMap;
  * <a href="https://leetcode.cn/problems/first-completely-painted-row-or-column/">
  * <h1>2661. First Completely Painted Row or Column</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:46 Dec 01, 2023
  */
 class FirstCompletelyPaintedRowOrColumn_Solution {

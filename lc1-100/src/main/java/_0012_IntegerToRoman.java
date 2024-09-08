@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/integer-to-roman/"><h1>12. Integer to Roman</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 09:34 Dec 06, 2023
  */
 class IntegerToRoman_Solution {

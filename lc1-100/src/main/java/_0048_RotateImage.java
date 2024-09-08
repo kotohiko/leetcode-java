@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/rotate-image/"><h1>48. Rotate Image</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 12:36 Nov 29, 2023
  */
 class RotateImage_Solution {

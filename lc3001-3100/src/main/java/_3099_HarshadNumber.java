@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/harshad-number"><h1>3099. Harshad Number</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 07:45 Jul 03, 2024
  */
 class HarshadNumber_Solution {

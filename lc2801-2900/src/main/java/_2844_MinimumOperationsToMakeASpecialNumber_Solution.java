@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/minimum-operations-to-make-a-special-number/description">
  * <h1>2844. Minimum Operations to Make a Special Number</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 09:42 Jul 25, 2024
  */
 class MinimumOperationsToMakeASpecialNumber_Solution {

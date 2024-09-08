@@ -7,7 +7,7 @@ return Json.parse("[" + input + "]").asArray().get(0).asString();
 /**
  * <a href=""><h1></h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since ${HOUR}:${MINUTE} ${MONTH_NAME_SHORT} ${DAY}, ${YEAR}
  */
 class ${NAME}_Solution {

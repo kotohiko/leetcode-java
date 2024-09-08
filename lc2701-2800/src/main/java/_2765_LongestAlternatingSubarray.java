@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/longest-alternating-subarray/description/"><h1>2765. Longest Alternating Subarray</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:29 Jan 23, 2023
  */
 class LongestAlternatingSubarray_Solution {

@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/maximum-prime-difference"><h1>3115. 质数的最大距离</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 09:49 Jul 02, 2024
  */
 class MaximumPrimeDifference_Solution {

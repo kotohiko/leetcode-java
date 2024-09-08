@@ -5,7 +5,7 @@ import java.util.List;
  * <a href="https://leetcode.cn/problems/maximum-path-quality-of-a-graph/description/">
  * <h1>2065. Maximum Path Quality of a Graph</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 23:31 Jul 01, 2024
  */
 class MaximumPathQualityOfAGraph_Solution {

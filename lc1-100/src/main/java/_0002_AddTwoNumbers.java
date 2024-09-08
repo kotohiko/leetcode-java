@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/add-two-numbers/"><h1>2. Add Two Numbers</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 12:13 Sep 20, 2023
  */
 class AddTwoNumbers_Solution {

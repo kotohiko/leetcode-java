@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/minimum-levels-to-gain-more-points">
  * <h1>3096. Minimum Levels to Gain More Points</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 13:46 Jul 19, 2024
  */
 class MinimumLevelsToGainMorePoints_Solution {

@@ -4,7 +4,7 @@ import java.util.HashSet;
  * <a href="https://leetcode.cn/problems/find-common-elements-between-two-arrays">
  * <h1>2956. Find Common Elements Between Two Arrays</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:09 Jul 16, 2024
  */
 class FindCommonElementsBetweenTwoArrays_Solution {

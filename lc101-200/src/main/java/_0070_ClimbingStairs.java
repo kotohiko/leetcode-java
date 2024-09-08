@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/climbing-stairs/"><h1>70. Climbing Stairs</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 17:15 Sep 28, 2023
  */
 class ClimbingStairs_Solution {

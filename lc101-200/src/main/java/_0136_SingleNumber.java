@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/single-number"><h1>136. Single Number</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 23:38 Oct 14, 2023
  */
 class SingleNumber_Solution {

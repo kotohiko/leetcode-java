@@ -3,7 +3,7 @@ import java.util.HashMap;
 /**
  * <a href="https://leetcode.cn/problems/two-sum/"><h1>1. Two Sum</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 10:55 Sep 20, 2023
  */
 class TwoSum_Solution {

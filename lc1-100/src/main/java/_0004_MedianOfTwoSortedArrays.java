@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * <a href="https://leetcode.cn/problems/median-of-two-sorted-arrays/"><h1>4. Median of Two Sorted Arrays</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 14:20 Dec 05, 2023
  */
 class MedianOfTwoSortedArrays_Solution {

@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/detect-capital/"><h1>520. Detect Capital</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 22:48 08/10/2023
  */
 class DetectCapital_Solution {

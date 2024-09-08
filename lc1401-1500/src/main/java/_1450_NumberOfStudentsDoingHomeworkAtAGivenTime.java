@@ -3,7 +3,7 @@
  * <h1>1450. Number of Students Doing Homework at a Given Time</h1>
  * </a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 15:43 Sep 06, 2024
  */
 class NumberOfStudentsDoingHomeworkAtAGivenTime_Solution {

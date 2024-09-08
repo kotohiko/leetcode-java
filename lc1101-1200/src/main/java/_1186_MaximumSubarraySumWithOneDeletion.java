@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion">
  * <h1>1186. Maximum Subarray Sum with One Deletion</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 10:19 Jul 21, 2024
  */
 class MaximumSubarraySumWithOneDeletion_Solution {

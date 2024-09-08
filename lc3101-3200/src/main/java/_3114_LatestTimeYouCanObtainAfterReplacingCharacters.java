@@ -2,7 +2,7 @@
  * <a href="https://leetcode.cn/problems/latest-time-you-can-obtain-after-replacing-characters">
  * <h1>3114. Latest Time You Can Obtain After Replacing Characters</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:52 Jun 30, 2024
  */
 class LatestTimeYouCanObtainAfterReplacingCharacters_Solution {

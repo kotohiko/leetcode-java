@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/count-alternating-subarrays"><h1>3101. Count Alternating Subarrays</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 10:01 Jul 06, 2024
  */
 class CountAlternatingSubarrays_Solution {

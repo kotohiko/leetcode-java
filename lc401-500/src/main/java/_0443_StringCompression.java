@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/string-compression/"><h1>443. String Compression</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 16:15 Dec 08, 2023
  */
 class StringCompression_Solution {

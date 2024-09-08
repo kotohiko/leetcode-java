@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
  * <a href="https://leetcode.cn/problems/minimum-time-to-visit-disappearing-nodes/">
  * <h1>3112. Minimum Time to Visit Disappearing Nodes</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 10:20 7月 18, 2024
  */
 class MinimumTimeToVisitDisappearingNodes_Solution {

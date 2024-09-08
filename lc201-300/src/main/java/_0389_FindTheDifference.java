@@ -1,7 +1,7 @@
 /**
  * <h1><a href="https://leetcode.cn/problems/find-the-difference">389. Find the Difference</a></h1>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 13:10 Jun 29, 2024
  */
 class FindTheDifference_Solution {

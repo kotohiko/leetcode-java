@@ -1,7 +1,7 @@
 /**
  * <a href="https://leetcode.cn/problems/merge-two-sorted-lists/"><h1>21. Merge Two Sorted Lists</h1></a>
  *
- * @author Jacob Suen
+ * @author Kotohiko
  * @since 17:39 Sep 21, 2023
  */
 class MergeTwoSortedLists_Solution {
