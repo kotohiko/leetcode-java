@@ -22,6 +22,7 @@
         <module>lc1101-1200</module>
         <module>lc1401-1500</module>
         <module>lc2001-2100</module>
+        <module>lc2301-2400</module>
         <module>lc2501-2600</module>
         <module>lc2601-2700</module>
         <module>lc2701-2800</module>
@@ -30,7 +31,7 @@
         <module>lc3001-3100</module>
         <module>lc3101-3200</module>
         <module>test</module>
-        <module>lc2301-2400</module>
+        <module>hw-java-exam</module>
     </modules>
 
     <properties>
