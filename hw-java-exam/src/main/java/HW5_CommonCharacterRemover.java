@@ -8,7 +8,7 @@ import java.util.Set;
  * @author Kotohiko
  * @since 21:28 Sep 18, 2024
  */
-public class CommonCharacterRemover {
+public class HW5_CommonCharacterRemover {
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
