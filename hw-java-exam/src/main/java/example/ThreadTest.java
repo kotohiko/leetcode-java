@@ -1,3 +1,5 @@
+package example;
+
 class Test {
     private int data;
     int result = 0;

@@ -1,3 +1,5 @@
+package example;
+
 /**
  * @author Kotohiko
  * @since 18:23 9月 19, 2024
