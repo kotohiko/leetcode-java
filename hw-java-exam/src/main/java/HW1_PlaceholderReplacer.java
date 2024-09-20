@@ -19,29 +19,29 @@ public class HW1_PlaceholderReplacer {
     }
 
     private static String replacePlaceholders(String str, int n, char[] args) {
-        String[] argStrings = new String[args.length];
-        for (int i = 0; i < args.length; ++i) {
-            argStrings[i] = String.valueOf(args[i]);
-        }
+        StringBuilder result = new StringBuilder();
 
-        StringBuilder sb = new StringBuilder();
-        int argIndex = 0;
+        int idx = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (i < n - 1 && str.charAt(i) == '%' && str.charAt(i + 1) == 's') {
-                if (argIndex < argStrings.length) {
-                    sb.append(argStrings[argIndex++]);
-                    ++i;
+        // 遍历原字符串
+        for (int i = 0; i < n; ++i) {
+            if (i + 1 < n && str.charAt(i) == '%' && str.charAt(i + 1) == 's') {
+                // 找到占位符 %s
+                if (idx < args.length) {
+                    // 替换占位符
+                    result.append(args[idx++]);
                 }
+                ++i; // 跳过 's'
             } else {
-                sb.append(str.charAt(i));
+                result.append(str.charAt(i));
             }
         }
 
-        for (; argIndex < argStrings.length; ++argIndex) {
-            sb.append(argStrings[argIndex]);
+        // 如果还有剩余的参数字符，添加到字符串的结尾
+        while (idx < args.length) {
+            result.append(args[idx++]);
         }
 
-        return sb.toString();
+        return result.toString();
     }
 }
