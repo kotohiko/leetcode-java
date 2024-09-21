@@ -18,6 +18,6 @@ public class HW4_NumOfUpperCase {
     }
 
     public static int countUpperCase(String str) {
-        return (int) str.codePoints().filter(Character::isUpperCase).count();
+        return (int) str.chars().filter(Character::isUpperCase).count();
     }
 }
