@@ -1,5 +1,6 @@
 /**
  * <a href="https://leetcode.cn/problems/add-two-numbers/"><h1>2. Add Two Numbers</h1></a>
+ * [Medium]
  * <p>
  * You are given two <b>non-empty</b> linked lists representing two non-negative integers.
  * The digits are stored in <b>reverse order</b>, and each of their nodes contains a single digit.
@@ -10,9 +11,9 @@
  *
  * <b>Example 1:</b>
  * <blockquote>
- * <b>Input: </b>l1 = [2,4,3], l2 = [5,6,4]
+ * <b>Input: </b>{@code l1 = [2,4,3], l2 = [5,6,4]}
  * <p>
- * <b>Output: </b>[7,0,8]
+ * <b>Output: </b>{@code [7,0,8]}
  * <p>
  * <b>Explanation: </b>
  * 342 + 465 = 807.
@@ -20,22 +21,22 @@
  *
  * <b>Example 2:</b>
  * <blockquote>
- * <b>Input: </b>l1 = [0], l2 = [0]
+ * <b>Input: </b>{@code l1 = [0], l2 = [0]}
  * <p>
- * <b>Output: </b>[0]
+ * <b>Output: </b>{@code [0]}
  * </blockquote>
  *
  * <b>Example 3:</b>
  * <blockquote>
- * <b>Input: </b>l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+ * <b>Input: </b>{@code l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]}
  * <p>
- * <b>Output: </b>[8,9,9,9,0,0,0,1]
+ * <b>Output: </b>{@code [8,9,9,9,0,0,0,1]}
  * </blockquote>
  *
  * <b>Constraints:</b>
  * <ul>
  *   <li>The number of nodes in each linked list is in the range [1, 100].</li>
- *   <li>0 <= Node.val <= 9</li>
+ *   <li>0 ≤ {@code Node.val} ≤ 9</li>
  *   <li>It is guaranteed that the list represents a number that does not have leading zeros.</li>
  * </ul>
  *
