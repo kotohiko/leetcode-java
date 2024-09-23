@@ -7,26 +7,33 @@
 class FindTheTownJudge_Solution {
     public int findJudge(int n, int[][] trust) {
         // 初始化两个数组，用于记录每个人被信任的次数和信任别人的次数
-        int[] trustCounts = new int[n + 1]; // 被信任次数
-        int[] trustGiven = new int[n + 1];  // 信任别人次数
+        // 被信任次数
+        int[] trustCounts = new int[n + 1];
+        // 信任别人次数
+        int[] trustGiven = new int[n + 1];
 
         // 遍历trust数组，统计每个人的被信任次数和信任别人次数
         for (int[] t : trust) {
-            int truster = t[0]; // 信任别人的人
-            int trusted = t[1]; // 被信任的人
-            trustCounts[trusted]++; // 被信任次数+1
-            trustGiven[truster]++;  // 信任别人次数+1
+            // 信任别人的人
+            int truster = t[0];
+            // 被信任的人
+            int trusted = t[1];
+            // 被信任次数 +1
+            trustCounts[trusted]++;
+            // 信任别人次数 +1
+            trustGiven[truster]++;
         }
 
-        // 查找法官（被信任n-1次且没有信任别人的人）
+        // 查找法官（被信任 n-1 次且没有信任别人的人）
         for (int i = 1; i <= n; ++i) {
-            // 法官必须被所有人（n-1人）信任，并且没有信任过任何人
+            // 法官必须被所有人（n-1 人）信任，并且没有信任过任何人
             if (trustCounts[i] == n - 1 && trustGiven[i] == 0) {
-                return i; // 返回法官的编号
+                // 返回法官的编号
+                return i;
             }
         }
 
-        // 如果没有找到法官，则返回-1
+        // 如果没有找到法官，则返回 -1
         return -1;
     }
 }
