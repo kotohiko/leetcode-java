@@ -46,6 +46,21 @@ import java.util.Map;
  * @since 10:55 Sep 20, 2023
  */
 class TwoSum_Solution {
+
+    /**
+     * Finds two indices in the given array such that the numbers at those indices add up to the target.
+     *
+     * <p>This method uses a hash map to store the value and its index as it iterates through the array.
+     * For each element, it calculates the complement (i.e., the number that, when added to the current element,
+     * equals the target).
+     * If the complement is found in the hash map, it means we have found the two indices that add up to the target.
+     * The method then returns these indices. If no such pair is found, it returns an empty array.
+     *
+     * @param nums   The input array of integers.
+     * @param target The target sum.
+     * @return An array containing the indices of the two numbers that add up to the target,
+     * or an empty array if no such pair exists.
+     */
     public int[] twoSum(int[] nums, int target) {
         // Map to store the value and its index
         Map<Integer, Integer> numIndexMap = new HashMap<>();
