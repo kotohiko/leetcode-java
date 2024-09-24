@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * <a href="https://leetcode.cn/problems/two-sum/"><h1>1. Two Sum</h1></a>
@@ -63,12 +62,12 @@ class TwoSum_Solution {
      */
     public int[] twoSum(int[] nums, int target) {
         // Map to store the value and its index
-        Map<Integer, Integer> numIndexMap = new HashMap<>();
+        var numIndexMap = new HashMap<Integer, Integer>();
 
         // Iterate over the array
         for (int i = 0; i < nums.length; i++) {
             // Calculate the complement of the current number
-            int complement = target - nums[i];
+            var complement = target - nums[i];
 
             // Check if the complement is already in the map
             if (numIndexMap.containsKey(complement)) {

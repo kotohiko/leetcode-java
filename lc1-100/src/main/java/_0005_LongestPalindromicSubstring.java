@@ -19,7 +19,7 @@ class LongestPalindromicSubstring_Solution {
 
         // Convert the input string to a Manacher string
         char[] manacherChars = manacherString(s);
-        int n = manacherChars.length;
+        var n = manacherChars.length;
 
         // Array to store the palindrome radius for each center
         int[] pArr = new int[n];
@@ -33,14 +33,14 @@ class LongestPalindromicSubstring_Solution {
         int pos = -1;
 
         // Iterate over the Manacher string to find the longest palindrome
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             // Initialize the palindrome radius for the current center
             pArr[i] = (i < R) ? Math.min(pArr[2 * C - i], R - i) : 1;
 
             // Expand around the current center
             while (i + pArr[i] < n && i - pArr[i] >= 0) {
                 if (manacherChars[i + pArr[i]] == manacherChars[i - pArr[i]]) {
-                    pArr[i]++;
+                    ++pArr[i];
                 } else {
                     break;
                 }
@@ -61,7 +61,7 @@ class LongestPalindromicSubstring_Solution {
 
         // Extract the longest palindromic substring from the Manacher string
         StringBuilder sb = new StringBuilder();
-        for (int i = pos - maxLen + 1; i <= pos + maxLen - 1; i++) {
+        for (int i = pos - maxLen + 1; i <= pos + maxLen - 1; ++i) {
             if (manacherChars[i] != '#') {
                 sb.append(manacherChars[i]);
             }
@@ -78,7 +78,7 @@ class LongestPalindromicSubstring_Solution {
      */
     private char[] manacherString(String s) {
         char[] chars = new char[s.length() * 2 + 1];
-        for (int i = 0, idx = 0; i < chars.length; i++) {
+        for (int i = 0, idx = 0; i < chars.length; ++i) {
             chars[i] = (i & 1) == 0 ? '#' : s.charAt(idx++);
         }
         return chars;

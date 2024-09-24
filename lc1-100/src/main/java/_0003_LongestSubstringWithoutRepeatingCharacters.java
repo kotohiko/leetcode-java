@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * <a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/">
@@ -55,18 +54,18 @@ import java.util.Map;
 class LongestSubstringWithoutRepeatingCharacters_Solution {
     public int lengthOfLongestSubstring(String s) {
         // Map to store the last index of each character
-        Map<Character, Integer> charIndexMap = new HashMap<>();
+        var charIndexMap = new HashMap<Character, Integer>();
         // Length of the input string
-        int n = s.length();
+        var n = s.length();
         // Variable to store the maximum length of substring without repeating characters
-        int maxLength = 0;
+        var maxLength = 0;
         // Start index of the current window
-        int start = 0;
+        var start = 0;
 
         // Iterate over the string with the end index of the current window
         for (int end = 0; end < n; ++end) {
             // Current character at the end of the window
-            char currentChar = s.charAt(end);
+            var currentChar = s.charAt(end);
 
             // If the character is already in the map, update the start index
             if (charIndexMap.containsKey(currentChar)) {
