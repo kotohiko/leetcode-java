@@ -37,7 +37,7 @@ public class _1450_NumberOfStudentsDoingHomeworkAtAGivenTimeTest {
 
             String out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

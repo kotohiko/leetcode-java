@@ -49,7 +49,7 @@ public class _0066_PlusOneTest {
 
             String out = integerArrayToString(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

@@ -22,7 +22,7 @@ public class _2844_MinimumOperationsToMakeASpecialNumberTest {
 
             var out = String.valueOf(ret);
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }

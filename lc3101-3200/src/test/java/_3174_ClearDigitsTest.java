@@ -20,7 +20,7 @@ public class _3174_ClearDigitsTest {
 
             String out = (new ClearDigits_Solution().clearDigits(s));
 
-            System.out.print(out);
+            System.out.println(out);
         }
     }
 }
