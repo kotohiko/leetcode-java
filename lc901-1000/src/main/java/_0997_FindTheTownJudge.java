@@ -54,6 +54,23 @@
  * @since 12:23 Sep 23, 2024
  */
 class FindTheTownJudge_Solution {
+
+    /**
+     * <p>The method works as follows:
+     * <ol>
+     *     <li>Initialize two arrays,{@code trustCounts}and{@code trustGiven}, to keep track of the number of times each person is
+     *     trusted and the number of times each person trusts someone else, respectively.</li>
+     *     <li>Iterate through the{@code trust}array and update the{@code trustCounts}and{@code trustGiven}arrays accordingly.</li>
+     *     <li>After processing the{@code trust}array, iterate through the{@code trustCounts}and{@code trustGiven}arrays to find the
+     *     person who is trusted by{@code n - 1}other people and has not trusted anyone (i.e., the judge).</li>
+     *     <li>If such a person is found, return their ID. Otherwise, return{@code -1}, indicating that no judge exists.</li>
+     * </ol>
+     *
+     * @param n     The number of people in the town.
+     * @param trust A 2D array representing the trust relationships, where{@code trust[i] = [a, b]}means person{@code a}trusts
+     *              person{@code b}.
+     * @return The ID of the town judge, or{@code -1}if no judge exists.
+     */
     public int findJudge(int n, int[][] trust) {
         // Initialize two arrays to keep track of the trust received and given by each person
         // Counts of trust received

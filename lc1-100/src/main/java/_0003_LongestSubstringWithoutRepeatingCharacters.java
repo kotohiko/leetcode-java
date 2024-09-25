@@ -5,44 +5,44 @@ import java.util.HashMap;
  * <h1>3. Longest Substring Without Repeating Characters</h1></a>
  * [Medium]
  * <p>
- * Given a string{@code s}, find the length of the longest substring<sup>1</sup> without repeating characters.
+ * Given a string{@code s}, find the length of the <b>longest substring</b><sup>1</sup> without repeating characters.
  * <p>
  * <blockquote>
  *     <ol>
- *         <li>A substring is a contiguous non-empty sequence of characters within a string.</li>
+ *         <li>A <b>substring</b> is a contiguous non-empty sequence of characters within a string.</li>
  *     </ol>
  * </blockquote>
  * <p>
  * <b>Example 1:</b>
  * <blockquote>
  * <p>
- * Input: <code>s = "abcabcbb"</code>
+ * <b>Input: </b><code>s = "abcabcbb"</code>
  * <p>
- * Output: <code>3</code>
+ * <b>Output: </b><code>3</code>
  * <p>
  * <b>Explanation: </b>The answer is "abc", with the length of 3.
  * </blockquote>
  * Example 2:
  * <blockquote>
  * <p>
- * Input: <code>s = "bbbbb"</code>
+ * <b>Input: </b><code>s = "bbbbb"</code>
  * <p>
- * Output: <code>1</code>
+ * <b>Output: </b><code>1</code>
  * <p>
  * <b>Explanation: </b>The answer is "b", with the length of 1.
  * </blockquote>
  * Example 3:
  * <blockquote>
  * <p>
- * Input: {@code s = "pwwkew"}
+ * <b>Input: </b>{@code s = "pwwkew"}
  * <p>
- * Output: 3
- * </blockquote>
+ * <b>Output: </b>3
+ * <p>
  * <b>Explanation: </b>The answer is "wke", with the length of 3.
+ * <p>
  * Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
- * <p>
- * <p>
- * <b>Constraints:</b>
+ * </blockquote>
+ *     <b>Constraints:</b>
  * <ul>
  *     <li><code>1 <= s.length <= 5 * 10<sup>4</sup></code></li>
  *     <li>{@code s}consists of English letters, digits, symbols and spaces.</li>
@@ -52,6 +52,18 @@ import java.util.HashMap;
  * @since 19:05 Sep 20, 2023
  */
 class LongestSubstringWithoutRepeatingCharacters_Solution {
+
+    /**
+     * Finds the length of the longest substring without repeating characters in the given string.
+     *
+     * <p>This method uses a sliding window approach to find the longest substring without repeating characters.
+     * It maintains a hash map to store the last index of each character encountered.
+     * As it iterates through the string, it adjusts the start of the current window if a repeating character is found.
+     * The maximum length of the substring without repeating characters is updated accordingly.
+     *
+     * @param s The input string.
+     * @return The length of the longest substring without repeating characters.
+     */
     public int lengthOfLongestSubstring(String s) {
         // Map to store the last index of each character
         var charIndexMap = new HashMap<Character, Integer>();
