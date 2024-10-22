@@ -32,7 +32,6 @@
         <module>lc3001-3100</module>
         <module>lc3101-3200</module>
         <module>test</module>
-        <module>hw-java-exam</module>
     </modules>
 
     <properties>
