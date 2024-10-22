@@ -44,6 +44,23 @@
  * @since 12:13 Sep 20, 2023
  */
 class AddTwoNumbers_Solution {
+
+    /**
+     * Adds two numbers represented by two linked lists. Each node contains a single digit.
+     * The digits are stored in reverse order, such that the 1's digit is at the head of the list.
+     *
+     * <p>Each of the two input lists represents a non-negative integer. The method returns the sum as a linked list.
+     * If the sum has more than one digit, the additional digits are carried over to the next higher place value.
+     *
+     * <p>The method uses a dummy head node to simplify the insertion of nodes into the result list.
+     * It iterates through both input lists, adding corresponding digits along with any carry from the previous addition.
+     * If one list is longer than the other, the remaining digits are added to the result.
+     * If there is a carry left after processing all digits, an additional node is added to the result list.
+     *
+     * @param l1 The first linked list representing the first number.
+     * @param l2 The second linked list representing the second number.
+     * @return The linked list representing the sum of the two input numbers.
+     */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // Initialize a dummy head node to simplify head insertion
         var dummy = new ListNode(0);
