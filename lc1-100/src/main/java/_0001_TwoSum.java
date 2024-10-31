@@ -36,7 +36,7 @@ import java.util.HashMap;
  * <p>
  * <ul>
  *     <li>{@code 2 <= nums.length <= 104}</li>
- *     <li>{@code -109 <= nums[i] <= 109}</li>
+ *     <li> -10<sup>9</sup> <= {@code nums[i]} <= 10<sup>9</sup></li>
  *     <li><b>Only one valid answer exists.</b></li>
  * </ul>
  * <b>Follow-up: </b>Can you come up with an algorithm that is less than O(n<sup>2</sup>) time complexity?
@@ -80,6 +80,21 @@ class TwoSum_Solution {
         }
 
         // If no solution is found, return an empty array
+        return new int[0];
+    }
+}
+
+@SuppressWarnings("unused")
+class TwoSum_Solution2 {
+    public int[] twoSum(int[] nums, int target) {
+        var n = nums.length;
+        for (int i = 0; i < n; ++i) {
+            for (int j = i + 1; j < n; ++j) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i, j};
+                }
+            }
+        }
         return new int[0];
     }
 }

@@ -67,7 +67,7 @@
  * <b>Explanation: </b><p>
  *     3000 = MMM as 1000 (M) + 1000 (M) + 1000 (M)<p>
  *  700 = DCC as 500 (D) + 100 (C) + 100 (C)<p>
- *   40 = XL as 10 (X) less of 50 (L)<p>
+ *   40 = {@code XL} as 10 ({@code X}) less of 50 ({@code L})<p>
  *    9 = IX as 1 (I) less of 10 (X)<p>
  * Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal places
  * </blockquote>
@@ -89,10 +89,10 @@
  * Output: "MCMXCIV"<p>
  * <b>Explanation: </b>
  * <p>
- * 1000 = M
- *  900 = CM
- *   90 = XC
- *    4 = IV
+ * 1000 = {@code M}<p>
+ *  900 = {@code CM}<p>
+ *   90 = {@code XC}<p>
+ *    4 = {@code IV}
  * </blockquote>
  * <p>
  * <b>Constraints:</b>

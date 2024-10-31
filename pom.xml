@@ -32,6 +32,7 @@
         <module>lc3001-3100</module>
         <module>lc3101-3200</module>
         <module>test</module>
+        <module>lc1801-1900</module>
     </modules>
 
     <properties>
