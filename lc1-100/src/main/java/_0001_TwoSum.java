@@ -47,8 +47,6 @@ import java.util.HashMap;
 class TwoSum_Solution {
 
     /**
-     * Finds two indices in the given array such that the numbers at those indices add up to the target.
-     *
      * <p>This method uses a hash map to store the value and its index as it iterates through the array.
      * For each element, it calculates the complement (i.e., the number that, when added to the current element,
      * equals the target).
