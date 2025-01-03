@@ -11,6 +11,7 @@ import java.util.HashMap;
  * <p>
  * You can return the answer in any order.
  * <p>
+ *
  * <b>Example 1:</b>
  * <blockquote>
  * Input: {@code nums = [2,7,11,15], target = 9}
@@ -25,12 +26,13 @@ import java.util.HashMap;
  * <p>
  * Output: {@code [1,2]}
  * </blockquote>
- * Example 3:
+ * <b>Example 3:</b>
  * <blockquote>
  * Input: {@code nums = [3,3], target = 6}
  * <p>
  * Output: {@code [0,1]}
  * </blockquote>
+ *
  * <p>
  * <b>Constraints:</b>
  * <p>
@@ -59,25 +61,14 @@ class TwoSum_Solution {
      * or an empty array if no such pair exists.
      */
     public int[] twoSum(int[] nums, int target) {
-        // Map to store the value and its index
-        var numIndexMap = new HashMap<Integer, Integer>();
-
-        // Iterate over the array
+        var map = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
-            // Calculate the complement of the current number
             var complement = target - nums[i];
-
-            // Check if the complement is already in the map
-            if (numIndexMap.containsKey(complement)) {
-                // If found, return the indices of the two numbers
-                return new int[]{numIndexMap.get(complement), i};
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};
             }
-
-            // Store the current number and its index in the map
-            numIndexMap.put(nums[i], i);
+            map.put(nums[i], i);
         }
-
-        // If no solution is found, return an empty array
         return new int[0];
     }
 }

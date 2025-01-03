@@ -22,6 +22,7 @@
         <module>lc1001-1100</module>
         <module>lc1101-1200</module>
         <module>lc1401-1500</module>
+        <module>lc1801-1900</module>
         <module>lc2001-2100</module>
         <module>lc2301-2400</module>
         <module>lc2501-2600</module>
@@ -31,8 +32,8 @@
         <module>lc2901-3000</module>
         <module>lc3001-3100</module>
         <module>lc3101-3200</module>
+        <module>lc3201-3300</module>
         <module>test</module>
-        <module>lc1801-1900</module>
     </modules>
 
     <properties>
