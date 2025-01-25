@@ -1,4 +1,6 @@
-import com.eclipsesource.json.Json;
+package org.jacob.leetcode.java.test;
+
+import org.jacob.leetcode.java.solution._0001_TwoSum_Solution;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +9,7 @@ import java.io.InputStreamReader;
 /**
  * @author LeetCode Playground
  */
-public class _2661_FirstCompletelyPaintedRowOrColumnTest {
+public class _0001_TwoSumTest {
     public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
@@ -24,31 +26,34 @@ public class _2661_FirstCompletelyPaintedRowOrColumnTest {
         return output;
     }
 
-    public static int[][] stringToInt2dArray(String input) {
-        var jsonArray = Json.parse(input).asArray();
-        if (jsonArray.isEmpty()) {
-            return new int[0][0];
+    public static String integerArrayToString(int[] nums, int length) {
+        if (length == 0) {
+            return "[]";
         }
 
-        var arr = new int[jsonArray.size()][];
-        for (var i = 0; i < arr.length; i++) {
-            var cols = jsonArray.get(i).asArray();
-            arr[i] = stringToIntegerArray(cols.toString());
+        StringBuilder result = new StringBuilder();
+        for (var index = 0; index < length; index++) {
+            var number = nums[index];
+            result.append(number).append(", ");
         }
-        return arr;
+        return "[" + result.substring(0, result.length() - 2) + "]";
+    }
+
+    public static String integerArrayToString(int[] nums) {
+        return integerArrayToString(nums, nums.length);
     }
 
     public static void main(String[] args) throws IOException {
         var in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            var arr = stringToIntegerArray(line);
+            var nums = stringToIntegerArray(line);
             line = in.readLine();
-            var mat = stringToInt2dArray(line);
+            var target = Integer.parseInt(line);
 
-            var ret = new _2661_FirstCompletelyPaintedRowOrColumn_Solution().firstCompleteIndex(arr, mat);
+            var ret = new _0001_TwoSum_Solution().twoSum(nums, target);
 
-            var out = String.valueOf(ret);
+            var out = integerArrayToString(ret);
 
             System.out.println(out);
         }

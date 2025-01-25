@@ -1,3 +1,5 @@
+import org.jacob.leetcode.java.common.TreeNode;
+
 /**
  * <a href="https://leetcode.cn/problems/binary-search-tree-to-greater-sum-tree/">
  * <h1>1038. Binary Search Tree to Greater Sum Tree</h1></a>
