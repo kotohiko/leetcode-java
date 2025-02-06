@@ -66,6 +66,7 @@ public class _0291_WordPatternII_Solution {
         if (pattern.length() > s.length()) {
             return false;
         }
+
         this.pattern = pattern;
         this.s = s;
         this.patternLength = pattern.length();
@@ -77,6 +78,7 @@ public class _0291_WordPatternII_Solution {
         if (patternIndex == patternLength) {
             return sIndex == sLength;
         }
+
         var c = pattern.charAt(patternIndex);
         if (letterToStr.containsKey(c)) {
             var target = letterToStr.get(c);
@@ -84,12 +86,15 @@ public class _0291_WordPatternII_Solution {
         } else {
             for (int i = sIndex + 1; i <= sLength; ++i) {
                 var target = s.substring(sIndex, i);
+
                 if (!strToLetter.containsKey(target)) {
                     letterToStr.put(c, target);
                     strToLetter.put(target, c);
+
                     if (backtrack(patternIndex + 1, i)) {
                         return true;
                     }
+
                     letterToStr.remove(c);
                     strToLetter.remove(target);
                 }

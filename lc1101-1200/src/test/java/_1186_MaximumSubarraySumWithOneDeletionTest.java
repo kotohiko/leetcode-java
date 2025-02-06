@@ -28,7 +28,7 @@ public class _1186_MaximumSubarraySumWithOneDeletionTest {
         while ((line = in.readLine()) != null) {
             var arr = stringToIntegerArray(line);
 
-            var ret = new MaximumSubarraySumWithOneDeletion_Solution().maximumSum(arr);
+            var ret = new _1186_MaximumSubarraySumWithOneDeletion_Solution().maximumSum(arr);
 
             var out = String.valueOf(ret);
 

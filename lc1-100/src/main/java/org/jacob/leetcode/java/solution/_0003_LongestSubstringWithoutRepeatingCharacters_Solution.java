@@ -55,42 +55,18 @@ import java.util.HashMap;
  */
 public class _0003_LongestSubstringWithoutRepeatingCharacters_Solution {
 
-    /**
-     * Finds the length of the longest substring without repeating characters in the given string.
-     *
-     * <p>This method uses a sliding window approach to find the longest substring without repeating characters.
-     * It maintains a hash map to store the last index of each character encountered.
-     * As it iterates through the string, it adjusts the start of the current window if a repeating character is found.
-     * The maximum length of the substring without repeating characters is updated accordingly.
-     *
-     * @param s The input string.
-     * @return The length of the longest substring without repeating characters.
-     */
     public int lengthOfLongestSubstring(String s) {
-        // Map to store the last index of each character
         var charIndexMap = new HashMap<Character, Integer>();
-        // Length of the input string
         var n = s.length();
-        // Variable to store the maximum length of substring without repeating characters
         var maxLength = 0;
-        // Start index of the current window
         var start = 0;
 
-        // Iterate over the string with the end index of the current window
         for (int end = 0; end < n; ++end) {
-            // Current character at the end of the window
             var currentChar = s.charAt(end);
-
-            // If the character is already in the map, update the start index
             if (charIndexMap.containsKey(currentChar)) {
-                // Move the start index to the right of the last occurrence of the current character
                 start = Math.max(charIndexMap.get(currentChar) + 1, start);
             }
-
-            // Update the last index of the current character
             charIndexMap.put(currentChar, end);
-
-            // Calculate the length of the current window and update the maximum length
             maxLength = Math.max(maxLength, end - start + 1);
         }
 

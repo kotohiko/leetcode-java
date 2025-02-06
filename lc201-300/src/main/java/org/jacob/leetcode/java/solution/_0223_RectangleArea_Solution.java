@@ -19,31 +19,11 @@ public class _0223_RectangleArea_Solution {
      * 矩形内部类
      */
     static class Rectangle {
-        /**
-         * 左下角 x 坐标
-         */
         private final int x1;
-        /**
-         * 左下角 y 坐标
-         */
         private final int y1;
-        /**
-         * 右上角 x 坐标
-         */
         private final int x2;
-        /**
-         * 右上角 y 坐标
-         */
         private final int y2;
 
-        /**
-         * 矩形对象初始化
-         *
-         * @param x1 左下角 x 坐标
-         * @param y1 左下角 y 坐标
-         * @param x2 右上角 x 坐标
-         * @param y2 右上角 y 坐标
-         */
         public Rectangle(int x1, int y1, int x2, int y2) {
             this.x1 = Math.min(x1, x2);
             this.y1 = Math.min(y1, y2);
@@ -51,35 +31,14 @@ public class _0223_RectangleArea_Solution {
             this.y2 = Math.max(y1, y2);
         }
 
-        /**
-         * 直接计算矩形面积
-         *
-         * @param x1 左下角 x 坐标
-         * @param y1 左下角 y 坐标
-         * @param x2 右上角 x 坐标
-         * @param y2 右上角 y 坐标
-         * @return 矩形面积
-         */
         public int rectangleArea(int x1, int y1, int x2, int y2) {
             return (x2 - x1) * (y2 - y1);
         }
 
-        /**
-         * 判断两个矩形是否相交
-         *
-         * @param other 另一个矩形对象
-         * @return {@code true} 为是；{@code false} 为否
-         */
         public boolean intersects(Rectangle other) {
             return !(this.x2 < other.x1 || this.x1 > other.x2 || this.y2 < other.y1 || this.y1 > other.y2);
         }
 
-        /**
-         * 计算两个矩形相交的面积
-         *
-         * @param other 另一个矩形对象
-         * @return 两个矩形相交的面积
-         */
         public int intersectionArea(Rectangle other) {
             if (!intersects(other)) {
                 return 0;

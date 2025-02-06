@@ -1,6 +1,5 @@
 package org.jacob.leetcode.java.test;
 
-import org.jacob.leetcode.java.solution.ClimbingStairs_Solution;
 import org.jacob.leetcode.java.solution._0070_ClimbingStairs_Solution;
 
 import java.io.BufferedReader;

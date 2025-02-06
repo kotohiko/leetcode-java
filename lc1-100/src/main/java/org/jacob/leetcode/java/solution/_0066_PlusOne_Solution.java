@@ -55,6 +55,7 @@ package org.jacob.leetcode.java.solution;
 public class _0066_PlusOne_Solution {
     public int[] plusOne(int[] digits) {
         var len = digits.length;
+
         for (var i = len - 1; i >= 0; --i) {
             if (digits[i] < 9) {
                 ++digits[i];
@@ -62,6 +63,7 @@ public class _0066_PlusOne_Solution {
             }
             digits[i] = 0;
         }
+
         var ans = new int[len + 1];
         ans[0] = 1;
         return ans;
