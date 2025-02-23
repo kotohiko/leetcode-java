@@ -1,3 +1,5 @@
+package org.jacob.leetcode.java.solution;
+
 /**
  * <a href="https://leetcode.cn/problems/maximum-subarray-sum-with-one-deletion">
  * <h1>1186. Maximum Subarray Sum with One Deletion</h1></a>

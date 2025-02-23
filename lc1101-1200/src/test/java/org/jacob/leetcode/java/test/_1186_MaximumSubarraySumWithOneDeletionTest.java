@@ -1,3 +1,7 @@
+package org.jacob.leetcode.java.test;
+
+import org.jacob.leetcode.java.solution._1186_MaximumSubarraySumWithOneDeletion_Solution;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

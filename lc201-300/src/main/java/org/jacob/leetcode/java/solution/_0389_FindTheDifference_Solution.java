@@ -6,7 +6,7 @@ package org.jacob.leetcode.java.solution;
  * @author Kotohiko
  * @since 13:10 Jun 29, 2024
  */
-class FindTheDifference_Solution {
+public class _0389_FindTheDifference_Solution {
     public char findTheDifference(String s, String t) {
         for (var i = 0; i < s.length(); ++i) {
             char sCh = s.charAt(i);

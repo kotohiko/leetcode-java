@@ -35,6 +35,7 @@
         <module>lc3201-3300</module>
         <module>test</module>
         <module>lc1501-1600</module>
+        <module>utils</module>
     </modules>
 
     <properties>

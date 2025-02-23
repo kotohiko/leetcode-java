@@ -1,5 +1,8 @@
+package org.jacob.leetcode.java.test;
+
 import com.eclipsesource.json.Json;
 import com.eclipsesource.json.JsonArray;
+import org.jacob.leetcode.java.solution._0744_FindSmallestLetterGreaterThanTarget_Solution;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,7 +37,7 @@ public class _0744_FindSmallestLetterGreaterThanTargetTest {
 
             char target = in.readLine().charAt(0);
 
-            var ret = new FindSmallestLetterGreaterThanTarget_Solution().nextGreatestLetter(s, target);
+            var ret = new _0744_FindSmallestLetterGreaterThanTarget_Solution().nextGreatestLetter(s, target);
 
             System.out.println(ret);
         }
