@@ -1,4 +1,4 @@
-package org.jacob.leetcode.java.solution.test;
+package org.jacob.leetcode.java.test;
 
 import com.eclipsesource.json.Json;
 import org.jacob.leetcode.java.solution._0520_DetectCapital_Solution;
